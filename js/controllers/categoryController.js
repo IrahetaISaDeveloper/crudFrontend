@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 tr.querySelector(".edit-btn").addEventListener("click", ()=>{
                     form.categoryId.value = cat.idCategoria;
                     form.categoryName.value = cat.nombreCategoria;
-                    form.categoryDescription = cat.descripcion;
+                    form.categoryDescription.value = cat.descripcion;
                     lblModal.textContent = "Editar categoría";
                     
                     //El modal se carga hasta que el formulario ya tenga los datos cargados
